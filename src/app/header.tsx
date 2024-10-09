@@ -61,7 +61,7 @@ export function Header() {
             height="60"
             alt=""   
           />
-          DevConnect  
+          CodeConnect   
         </Link>
 
         <div className="flex items-center gap-4">
