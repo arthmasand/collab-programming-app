@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevConnect: Collaborative Coding Platform
 
-## Getting Started
+## Overview
+DevConnect is a platform designed to facilitate real-time collaboration among developers, enhancing productivity and learning through shared coding sessions.
 
-First, run the development server:
+## Key Features
+- **Room Creation**: Set up coding rooms with project details and tags.
+- **Search & Join**: Find and join rooms using filters like tech stack and keywords.
+- **Real-Time Tools**: Integrated screen sharing, voice, and text chat for collaboration.
+- **Project Management**: Room creators can update project information.
+- **Secure Authentication**: Sign-up, login, and password reset with multi-factor support.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- **Frontend**: Next.js, shadcn UI
+- **Backend**: TypeScript, Drizzle ORM, PostgreSQL
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
+1. **Clone the Repo**:
+   ```bash
+   git clone https://github.com/username/devconnect.git
+   cd devconnect
+   ```
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Configure Environment**:
+   Set up `.env` with database and auth secrets.
+4. **Run Migrations**:
+   ```bash
+   npm run db:migrate
+   ```
+5. **Start the Server**:
+   ```bash
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
+- **Sign Up / Log In**: Access features securely.
+- **Create / Join Rooms**: Collaborate in real-time.
+- **Update Details**: Room creators can modify project info.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
+1. Fork and create a new branch.
+2. Commit changes and push.
+3. Open a pull request.
 
-## Learn More
+## License
+Licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
+For support, contact devconnect.support@example.com.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
